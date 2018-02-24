@@ -1,0 +1,14 @@
+{
+  "name": "helloworld",
+  "authors": [ "joseluisq" ],
+  "dependencies": {
+    "vibe-d": "~>0.8.2"
+  },
+  "description": "A simple vibe.d server application.",
+  "copyright": "Copyright © 2018, joseluisq",
+  "license": "MIT",
+  "versions": [ "VibeDefaultMain", "VibeUseOpenSSL11", "DeimosOpenSSLv1_1" ],
+  "subConfigurations": {
+    "vibe-d:tls": "openssl-1.1"
+  }
+}
